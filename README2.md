@@ -1,4 +1,4 @@
-# #Week 1 18/06:
+# #Week1 1 18/06 Day 4:
 Interviewing:
 
 - Researching the company, about its products and projects 
@@ -50,14 +50,20 @@ Things not to say:
 - This role is not for me 
 - I rather be in another role
 
-
-Presentation Skills (CMAD):
+(CMAD):
 - Confidence - Knowledge of the subject, preparing and planning, rehearsing 
 - Manner - Voice, appearance and movement
 - Attitude - Attention to detail, aim for perfection
 - Diligence
 - Enthusiasm
 
+Good slide design
+- Direct and concise
+- Bullet points
+- No warping bullet points
+- Good use of visual assists where it will add to the story or argument
+- Bullet points are to aid a presentation
+ 
 Structuring a presentation:
 - Intro and background
 - Outline
@@ -68,14 +74,51 @@ Structuring a presentation:
 
 If you are presenting:
 - Understand your audience
+- KISS - Keep it simple
+
+Stakeholders
+* People interested in the success of / can be affected by project business: internal and external 
+* Stakeholder objectives 
+* Two main examples of stakeholder management – agreeing deliverables 
+Software development life cycles
+* Process used to design develop and test high quality software 
+* Reduce cost while shortening production time 
+* Waterfall
+	* More traditional approach, very linear 
+	* Used when requirements are clear and there’s no need for adaptations 
+* Agile
+	* Iterating through cycles, typically in sprints and with retrospectives 
+	* Focuses on change and adaptability 
+* V-model – verification and validation
+	* Verification process
+	* Confirms that the systems fulfil design requirements 
+	* It is a measure of build 
+	* Validation process
+	* Validation is the process of checking whether the specification captures the customer’s needs 
+	* It is a measure of performance 
+	* Follows sequential as well as parallel flow of prod development 
+	* Should be used for small to medium sized projects 
+	* Because of its linear process, should be used for projects that are large 
+Network diagram
+	* Helps in the planning of prof 
+	* Shows interdependencies/ relationships of activities 
+	* Shows the workflow of the project activities 
+* Downsides of using network diagram
+	* Time and money to produce 
+	* Ppl don’t see the necessity of using them 
+	* Complexity based on network 
+	* Info doesn’t stay accurate for long 
+* Gantt chart
+	* Used to represent activities start, end, and how long they are to last
 
 The Project Environment:
+
 - Business as usual vs Project: BAU is the normal execution of standard operations within an organisation, a project is unique and short timed with a desired outcome
 - Business as usual strategies - Optimisation - 9-5 simple information
 - Project strategies - it’s more complex and detailed strategies
 - Lifecycle of a project: Initiation, planning, executing, monitoring and controlling, closing
-- The triple constraint - Time, cost, quality 
-- The POPIT model - People, Organisation, Technology Process
+- The triple constraint - Scope - the tasks required to fulfil the project’s goals , Time, cost, quality 
+- The POPIT model - People, Organisation, Technology Process - Holistic triangle
 - Devops role in agile - we need to implement the code, 
 - Project managed really well - deadlines can be managed well, divide the tasks, identify the risk and deal with it, 
 
@@ -90,14 +133,13 @@ Software development cycles:
 - Waterfall - System requirements, software requirements analysis, program design, coding, testing, operations
 - Sudo coding - comments about the actual coding, eg: python
 
-
 -Vmodel:
 
-_Verification Process_
+- Verification Process
 * Confirm that the systems fulfil the design requirements. 
 * It is a measure of build. 
  
-_Validation Process_
+- Validation Process
 * Validation is the process of checking whether the specification captures the customer’s needs 
 * It is a measure of performance.
 
@@ -119,3 +161,8 @@ Stakeholders:
 - Gantt charts display activities in a time frame.
 - Each activity has a start date, duration, and end date.
 - Gantt allows readers to see how activities relate to one another.
+
+Kanban - part of a agile framework
+
+
+
