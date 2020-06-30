@@ -10,7 +10,7 @@ Row - A row consists of one set of atttributes corresponding to one instance tha
 
 Table  - predefined format of rows  and columns - that define an entity. Known as a file. 
 
-DBMS - Database management system - computer to perform database functions of storing, retrieving, adding, deleting and modifying data. 
+RDBMS - Relational Database management system - computer to perform database functions of storing, retrieving, adding, deleting and modifying data. 
 
 Entity - anything that needs to be modelled (table)
 It allows referencing what the table is about
@@ -46,6 +46,6 @@ Junction Table - When you need to establish a many-to-many relationship between 
 
 A Junction Table (sometimes referred to as a “Bridge Table”) is a table that contains references to both groups; bridging them together. (Example: Where there is a many to many relationship you can make a junction table with the primary keys of the tables, then form a junction table. This table then forms a composite primary key.
 
-Composite primary keys -  combines more than one field to make a unique value. 
+Composite primary keys -  combines more than one columns to make a unique value. 
 
 Primary key candidates  - the potential for a record to be a primary key

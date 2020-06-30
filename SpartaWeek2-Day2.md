@@ -4,9 +4,18 @@ Structured query language:
 Data manipulation language - DML - this is update the records:
 - SELECT, INSERT, UPDATE, DELETE
 
+Delete - inside the table, it uses the WHERE cause
+SELECT - what columns you want to displayed
+UPDATE - Updating a new row - something to add data to(Course name)
+INSERT - inserting new rows into tables
+
 DDL - Data definition language - this is for actual structure:
 - CREATE, ALTER, DROP, TRUNCATE
 
+CREATE - Creating a new structure
+DROP - Dropping everything from the database
+Alter - is adding a entire new column - a set of data, modify 
+Truncate - removing the contents of the table but keeping the names of the rows.
 Drop - completely drops the table from the database
 Truncate - it deletes the data from the table, leaving an empty table.
 
@@ -30,29 +39,12 @@ Data types used in SQL:
 - FLOAT - scientific use for very large numbers
 - BIT - used for a true or false value - boolean (0,1)
 
-SQL Coding Notes:
-
-INSERT INTO TABLE_NAME - this is to insert values into the table.
-VALUES
-
-For example code: 
-
-INSERT INTO film_table 
-(   
-    film_name, film_type, release_date, director, writer, star, film_lang, off_website, plot_summary
-)
-VALUES 
-(
-    ‘SQL’, ‘DRAMA’, ’20/05/2021’, ‘Sohaib Sohail’, ‘Christopher Nolan’, 5.0, ‘English’, ‘www.sql.com’, ‘amazing story line’
-);
 
 - Single quotes is used by VARCHAR, DATETIME, otherwise INT and DECIMAL values are without any quotes
-- INT Identity (1,1) - This means it starts from 1 and the second value is added to the first meaning 1+1=2 which means (1,2,3…..)  
+- INT Identity (1,1) - Incremental value creating on its own - This means it starts from 1 and the second value is added to the first meaning 1+1=2 which means (1,2,3…..)  
 - PRIMARY KEY - registering it as a primary key in the database
 - If it’s separated from a comma, for example: PRIMARY KEY (director_id, director_number) - this is an example of a composite key
 - NULL - means no value (undefined value)
-
-INSERT INTO - listing the table columns will 
 
 Normalisation - better design, better use:
 
@@ -65,5 +57,12 @@ Making sure that the composite primary keys are interlinked and dependent on eac
 - 3rd normal form:
 There is no transitive functional dependency - make sure 
 
+Constraints can be column level or table level.
 
+**Some commonly used SQL constraints:**
 
+NOT NULL - Ensures that a column cannot have a NULL value
+DEFAULT - Sets a default value for a column when no value is specified.
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. It identifies each row in a table
+
+DROP CONSTRAINT - it means dropping one of the rules imposed on the table or column.
