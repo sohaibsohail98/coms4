@@ -1,12 +1,10 @@
-#Data types and operators
-# Strings and casting
-# concatenation
-# Single quotes vs double in Python
+What we covered today: 
 
-x = 10
-y = 11 
-print(x == y) #Checking the values as Boolean resulting True or False,
-#10 does not equal to 11
-print( x!= y) #Checking the values as Boolean resulting True or False
-#This is true as x does not equal to 11.
-
+- Strings
+- Indexes
+- String slicing
+- Boolean value within data types
+- Lists and different functions within lists
+- Tuples
+- Converting tuples into lists
+ 

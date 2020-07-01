@@ -54,24 +54,84 @@
 
 # Boolean value within DATA types:
 
-use_text = "here's SOME text with lot's of text"
+# use_text = "here's SOME text with lot's of text"
+#
+# print(use_text.count("text")) # This counts the substring within the string: How many times the word text is repeated in the string.
+#
+# #Brings all the characters to lower case
+# print(use_text.lower())
+#
+# #Bringing all the characters to upper case
+# print(use_text.upper())
+#
+# #Bringing beginning of the string to upper case
+# print(use_text.capitalize())
+#
+# #Replace tect in the string
+# print(use_text.replace("with", ","))
+#
+# #What the string starts with, whether it's true or false
+# print(use_text.startswith("h"))
 
-print(use_text.count("text")) # This counts the substring within the string: How many times the word text is repeated in the string.
+#Lists: Used in data collection
 
-#Brings all the characters to lower case
-print(use_text.lower())
+#Java and python both used arrays, the serve the same purpose of storing data
 
-#Bringing all the characters to upper case
-print(use_text.upper())
+#Why list? - manage data - access data in order -  option to add, remove etc
+#[] Square brackets for lists, they can be changed at any time.
+#Tuple are immutable - not changeable
 
-#Bringing beginning of the string to upper case
-print(use_text.capitalize())
+#Dictionary - key:value
 
-#Replace tect in the string
-print(use_text.replace("with", ","))
+#Let's create a list of cities
 
-#What the string starts with, whether it's true or false
-print(use_text.startswith("h"))
+# cities = ["Tokyo", "Paris", "Prague", "Luxembourg"]
+# #display (print()) list the cities
+# print(cities)
+# print(type(cities)) #This will tell the type of data, in this case class list.
+#
+# print(cities[3]) #This will print Luxembourg within the list.
+# cities[3] = "Amsterdam" #This will replace a string within the list.
+#
+# print(cities)
+#
+# cities.append("Vilnius") #This will add the value to the list at the end
+# # print(cities)
+#
+# cities.remove("Paris") #This will remove the value from the list
+# print(cities)
+#
+# cities.pop()  #Deletes the last index in the list
+# print(cities)
+#
+# cities.insert(0, "London") #Add the value in the particular index, in this case in the beginning
+# print(cities)
+#
+# #Lists can hold multiple data types
+# mix_type_string = [1, 2, 3]
+# string_list = ["one", "two", "three"]
+# print(mix_type_string + string_list) #This will combine the two lists.
+
+#Tuples - storing data that isn't needed to be changed - eg: DOB, NHS ID
+
+#Syntax of Tuple: we use () to create a Tuple
+
+user_details = ("name", "dob", "passport number")
+print(user_details)
+
+print(user_details[1])
+
+#Convert the tuple into an list
+#add your name into the string at 0 index
+#display the list
+
+user_details_list =list(user_details) #Convert the tuple into an list
+print(user_details_list)
+
+print(type(user_details_list))
+
+user_details_list.insert(0,"James")   #add your name into the string at 0 index
+print(user_details_list) #display the list
 
 
 
