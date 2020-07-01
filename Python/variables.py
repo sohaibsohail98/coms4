@@ -35,21 +35,21 @@
 #Exercise, capturing user details:
 
 #Create a variable called first_name and last_name,
-first_name = "Sohaib"
-last_name = "Sohail"
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
 
 #Create a variable called full_name and display full_name
 
 full_name = first_name + " " + last_name
-# print(full_name)
+print(full_name)
 
 #Create a variable called age
-age = 21
+age = input(full_name + " How old are you? ")
+
 
 #Create a variable called address
-address = "23 Downing Street"
+address = input("What is your address? ")
 
 #Enter the user's details:
 
-print(full_name + " " + str(age) + " " + address)
-
+print(full_name + " " + age + " " + address)
