@@ -6,5 +6,8 @@ What we covered today:
 - Boolean value within data types
 - Lists and different functions within lists
 - Tuples
+- Control flows
 - Converting tuples into lists
- 
+- Sets
+- Loops
+- Dictionaries
