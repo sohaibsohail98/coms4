@@ -22,3 +22,8 @@
 # print('Ugne\'s class is Eng 67 ') #Singlequotes
 #
 # print("Ugne's class is Eng 67") #Doublequotes
+
+# age = 23
+# name = "Marcus is "
+#  print(name + age)
+# print(name + str(age))
