@@ -1,3 +1,3 @@
 What we covered today: 
 - Functions
-- Object Oriented Programming
+- Object Oriented Programming: classes, object, initialisation
