@@ -3,7 +3,7 @@ from animal import Animal
 class Mammal(Animal):
     def __init__(self, alive, hungry = True, sleeping = False, breathing = True, animaltype, prey, predator, origin):
         super().__init__(alive, hungry = True, sleeping = False, breathing = True)
-        self.animaltype = animaltype
+        self.animaltype = animaltype #Self is related to the class within init..
         self.prey = prey
         self.predator = predator
         self.origin = origin
