@@ -3,7 +3,7 @@
 #naming convention for creating a class is to capitalise the first letter
 
 
-class python_calculator:
+class Python_calculator:
 
     def add_values(self, num1, num2): # self key word refers to the class
 
