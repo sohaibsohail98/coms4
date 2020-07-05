@@ -1,0 +1,3 @@
+from python_api_requests import check_response_code
+
+check_response_code()
